@@ -33,3 +33,5 @@ python demo_query.py
 
 # Run the 3-mode ablation benchmark
 python run_ablation.py
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kothawadegs/hyperspectral-foundation-adapter/blob/main/notebooks/hyperspectral_adapter_walkthrough.ipynb)
