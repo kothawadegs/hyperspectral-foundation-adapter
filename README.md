@@ -21,6 +21,7 @@ An end-to-end framework adapting pretrained Vision Foundation Models (DINOv2) to
 ### Key Engineering Insight
 While full fine-tuning converges, it carries high computational overhead and GPU memory usage. LoRA achieves competitive convergence with under 1% of parameters. However, in low-rank regimes, optimization is sensitive to learning rate spikes—requiring gradient clipping (`max_norm=1.0`) and learning rate warmup to avoid momentary subspace instability.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kothawadegs/hyperspectral-foundation-adapter/blob/main/notebooks/hyperspectral_adapter_walkthrough.ipynb)
 ## Quickstart
 
 ```bash
@@ -33,5 +34,3 @@ python demo_query.py
 
 # Run the 3-mode ablation benchmark
 python run_ablation.py
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kothawadegs/hyperspectral-foundation-adapter/blob/main/notebooks/hyperspectral_adapter_walkthrough.ipynb)
