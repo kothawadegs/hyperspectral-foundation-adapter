@@ -24,8 +24,8 @@ While full fine-tuning converges, it carries high computational overhead and GPU
 ## Quickstart
 
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/hyper-dino-rag.git
-cd hyper-dino-rag
+git clone https://github.com/kothawadegs/hyperspectral-foundation-adapter.git
+cd hyperspectral-foundation-adapter
 pip install -r requirements.txt
 
 # Run the retrieval engine demo
